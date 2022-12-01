@@ -9,4 +9,4 @@ docker buildx build \
   --build-arg VCS_REF=$(git rev-parse --short HEAD) \
   --tag $DOCKER_REPO \
 	--tag ${IMAGE_NAME} \
-	--tag fboaventura/doc-toc .
+	--tag fboaventura/dckr-doctoc .
