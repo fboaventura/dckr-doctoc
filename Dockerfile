@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM node:19.2-alpine3.16
 
 RUN npm install -g doctoc && \
         mkdir /app
