@@ -32,6 +32,10 @@ $ docker run --rm -ti -v $(pwd):/app fboaventura/dckr-doctoc --github .
 
 ## ChangeLog
 
+### v2.0.0 - 2026.03.26
+
+- Update node and doctoc versions
+
 ### v1.0.0 - 2022.11.30
 
 - First version
